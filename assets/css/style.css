@@ -1,0 +1,160 @@
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+    border-bottom-style: inset;
+    overflow: auto;
+}
+
+.top {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    padding-left: 120px;
+    height: 50px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+a {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: #777777;
+}
+
+#portfolio {
+    border-left-color: #cccccc;
+    border-left-style: outset;
+    border-right-color: #cccccc;
+    border-right-style: inset;
+}
+
+section {
+    clear: both;
+    display: block;
+    width: 960px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 58px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-top-style: outset;
+    border-left-style: outset;
+    border-bottom-style: inset;
+    border-right-style: inset;
+    overflow: auto;
+    padding-bottom: 10px;
+    line-height: 150%
+}
+
+.subject {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: inset;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#first_row {
+    float: left;
+}
+
+#second_row {
+    clear: both;
+    float: left;
+}
+
+#third_row {
+    clear: both;
+    float: left;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#my_picture {
+    float: left;
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.image_name {
+    background-color: #4aaaa5;
+    float: left;
+}
+
+#about_me {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+form {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form_field {
+    width: 900px;
+    margin-bottom: 15px;
+}
+
+#form_message {
+    height: 200px;
+    width: 900px;
+}
+
+#form_button {
+    margin-top: 15px;
+    border-style: hidden;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
