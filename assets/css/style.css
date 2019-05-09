@@ -6,7 +6,6 @@ body {
 header {
     background-color: #888;
     border-bottom: #20c997 inset 2px;
-    margin-bottom: 50px;
 }
 
 .top {
@@ -33,41 +32,26 @@ h3 {
     line-height: 150%;
 }
 
-.front-page {
-    height: 300px;
-}
+/* .navbar-brand, .nav-item {
+    color: #20c997;
+} */
 
-.portfolio-links {
-    background-color: #F3969A;
-    opacity: 0.8;
-    border-color: #20c997;
-    border-top-style: outset;
-    border-left-style: outset;
-    border-bottom-style: inset;
-    border-right-style: inset;
-    border-width: 2px;
-    overflow: auto;
-    margin-right: 20px;
+.nav-pills {
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+    font-family: 'Modak', cursive;
     margin-bottom: 50px;
 }
 
-.portfolio-links:hover {
-    opacity: 0.5;
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#contact {
-    margin-right: 0;
-}
 
-.title {
-    font-family: 'Modak', cursive;
-    line-height: 300px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-#my_picture, form {
+#my_picture {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -75,16 +59,18 @@ h3 {
 }
 
 #about-me, #my-portfolio, #contact-me {
-    margin-top: 90px;
-    margin-bottom: 200px;
     background-color: white;
     border-color: #20c997;
     border-top-style: outset;
-    border-left-style: outset;
     border-bottom-style: inset;
-    border-right-style: inset;
-    border-width: 2px;
+    border-width: 5px;
     overflow: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact-me { 
+    margin-bottom: 150px;
 }
 
 p {
@@ -109,7 +95,7 @@ a, span {
 
 .image_portfolio {
     width: 90%;
-    height: 300px;
+    height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
 }

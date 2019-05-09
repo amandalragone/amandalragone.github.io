@@ -7,8 +7,8 @@ $(document).ready(function(){
     $(".portfolio-links").on("click", function(){
         var elementClicked = $(this).attr("id");
         console.log(elementClicked);
-        $(this).parent().css("height", "40px");
-        $(".title").css("line-height", "40px");
+        $(this).parent().css("height", "80px");
+        $(".title").css("line-height", "80px");
 
         if (elementClicked === "about") {
             $("#about-me").show();
