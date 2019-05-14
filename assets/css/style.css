@@ -1,11 +1,23 @@
 body {
     font-family: 'Heebo', sans-serif;
     background-image: url("../images/what-the-hex.png");
+    scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+#portfolio-content {
+margin-top: 50px;
 }
 
 header {
-    background-color: rgb(136, 136, 136, 0.8);
+    background-color: #888888cc;
     border-bottom: #731c9e inset 2px;
+    padding-top: 20px;
 }
 
 h1 {
@@ -31,7 +43,7 @@ h3 {
 }
 
 .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 2;
@@ -50,7 +62,7 @@ nav a {
 }
 
 #about-me, #my-portfolio, #contact-me, #my-skills {
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: #ffffff80;
     border-color: #731c9e;
     border-top-style: outset;
     border-bottom-style: inset;
@@ -78,21 +90,30 @@ border-bottom: 3px solid #c9a8db;
 }
 
 #my-skills {
-    background-color: rgb(232, 188, 239, 0.4);
+    background-color: #e8bcef66;
 }
 
 #my-portfolio {
-    background-color: rgb(136, 136, 136, 0.4);
+    background-color: #88888866;
 }
 
 #contact-me { 
     margin-bottom: 150px;
 }
 
+.h4 {
+    color: #5c5757;
+}
+
+i {
+    color: #5c5757;
+}
+
 p {
     text-align: justify;
     margin-right: 20px;
     margin-left: 20px;
+    color: #5c5757;
 }
 
 #about-me a {
@@ -113,6 +134,10 @@ a, span {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Just Another Hand', cursive;
+}
+
+#contact-me span {
+    font-size: xx-large;
 }
 
 .project-box {
@@ -162,6 +187,10 @@ footer {
     width: 100%;
     background-color: #c9a8db;
     border-top: #731c9e solid 5px;
-    line-height: 10px;
+    /* line-height: 8px; */
     text-align: center;
 } 
+
+footer span {
+    font-size: medium;
+}
