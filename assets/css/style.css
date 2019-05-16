@@ -9,6 +9,24 @@ body {
     background-image: url("../images/what-the-hex.png");
 }
 
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+nav a {
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-item:hover {
+    font-weight: bolder;
+}
+
 /* Portfolio-content div */
 #portfolio-content {
 margin-top: 50px;
@@ -79,20 +97,6 @@ h3 {
 
 .h4 {
     color: #5c5757;
-}
-
-/* Navbar */
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-}
-
-nav a {
-    font-family: 'Varela Round', sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 /* Defining common styles for About Me, Skills, Portfolio and Contact sections */
